@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+._header{
+    width: 100%;
+    height: 150px;
+    background-color:  #0D8FBB;
+    display: table;
+    text-align: center;
+    vertical-align: middle;
+}
+
+._header h1{
+    font-size: 3em;
+    vertical-align:middle;
+    display:table-cell;
+    font-family: cursive;
+}
+
+._main{
+    height: 200px;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .princ{
+        width: 30%;
+        height: 90%;
+        border: 1px dotted rgb(0, 0, 0);
+        display: block;
+        background-color:  #0D8FBB;
+        border-radius: 20px;
+        
+    }
+
+    .princ ul li{
+        list-style: none;
+        text-align: center;
+        
+    }
+
+    .princ h2{
+        text-align: center;
+        font-size: 2.3em;
+        margin: 15px;
+    }
+
+    .lab{
+        display: inline-block;
+        width: 70px;
+        margin: 10px;
+        font-size: 1.2em;
+    }
+    
+    .liste{
+        display: inline-block;
+        width: 100%;
+        margin: 10px;
+        font-size: 1.2em;
+    }
+
+    .txt{
+        padding: 5px;
+    }
+
+    .princ select{
+        display: block;
+        padding: 5px;
+        margin: 0px 10px 0px 10px;
+        width: 310px;
+        
+    }
+
+    .sub{
+        margin: 10px 10px 0px 10px;
+        padding: 5px 15px 5px 15px;
+        border: none;
+        background-color:  #0e0ee2;
+        width: 100PX;
+        border-radius: 20px;
+        height: 30px;
+        
+    }
+
+    .sub:hover{
+        cursor: pointer;
+        background-color:  #000016;
+        
+    }
+
+.formulaire{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    
+}
+
