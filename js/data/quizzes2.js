@@ -4,7 +4,7 @@
  * Informations diverses sur les quiz.
  * @type{Record<string, Quiz>}
  */
-const quizzes = {
+const quizzes2 = {
     "mer": {
         title: "Les animaux marins dans les dessins animés",
         description: "Des poissons et mammifères marins vous sont données. À vous de me donner leur nom.",
@@ -23,6 +23,6 @@ const quizzes = {
     "webg2": {
         title: "La matière de Webg2",
         description: "Testez vos connaissances sur le cours de webg2",
-        data: questions_webg2,
+        data: "questions_webg2",
     },
 };
